@@ -1,0 +1,5 @@
+c:\users\dimit\onedrive\documents\visual studio 2017\Projects\SpaceShipGame_With_Moving_Enemy\SpaceShipGame_With_Moving_Enemy\bin\Debug\SpaceShipGame_With_Moving_Enemy.exe.config
+c:\users\dimit\onedrive\documents\visual studio 2017\Projects\SpaceShipGame_With_Moving_Enemy\SpaceShipGame_With_Moving_Enemy\bin\Debug\SpaceShipGame_With_Moving_Enemy.exe
+c:\users\dimit\onedrive\documents\visual studio 2017\Projects\SpaceShipGame_With_Moving_Enemy\SpaceShipGame_With_Moving_Enemy\bin\Debug\SpaceShipGame_With_Moving_Enemy.pdb
+c:\users\dimit\onedrive\documents\visual studio 2017\Projects\SpaceShipGame_With_Moving_Enemy\SpaceShipGame_With_Moving_Enemy\obj\Debug\SpaceShipGame_With_Moving_Enemy.exe
+c:\users\dimit\onedrive\documents\visual studio 2017\Projects\SpaceShipGame_With_Moving_Enemy\SpaceShipGame_With_Moving_Enemy\obj\Debug\SpaceShipGame_With_Moving_Enemy.pdb
