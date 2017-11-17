@@ -23,6 +23,7 @@
                 goto StartGame;
             }
             // Choose spaceShip
+
             Console.Clear();
             SHIPPICK:
             Console.WriteLine("Choose your Space Ship");
@@ -30,8 +31,8 @@
             Console.WriteLine("For /\\^/\\ press 2");
             Console.WriteLine("For custom press 3");
             string spaceShip = string.Empty;
-            //read option
-            
+            //Read Option
+
             ConsoleKeyInfo pickShip = Console.ReadKey();
             if (pickShip.Key == ConsoleKey.D1)
             {
@@ -44,7 +45,7 @@
             else if (pickShip.Key == ConsoleKey.D3)
             {
                 Console.WriteLine();
-                spaceShip=Console.ReadLine();
+                spaceShip = Console.ReadLine();
                 if (spaceShip.Length % 2 == 0)
                 {
                     Console.WriteLine("Please create a ship with \"Odd Symbol Lenght\", so that the blaster is Centred");
@@ -57,8 +58,6 @@
                 Console.WriteLine("Press again");
                 goto SHIPPICK;
             }
-
-
             //Set Screen
             Console.Clear();
             int width = 60;
@@ -69,8 +68,7 @@
             Console.CursorVisible = false;
 
             //Setting up OuRSHiP
-
-            //string spaceShip = ($"\\^/");
+            
             int colOfSS = 0;
             int rowOfSS = Console.WindowHeight - 1;
             string projectile = "^";
@@ -141,7 +139,6 @@
 
                             }
                             rowOfProjectile--;
-
                         }
                         if (rowOfProjectile == 0)
                         {
@@ -151,7 +148,7 @@
                     else
                     {
                         int rowOfProjectile = rowOfSS - 1;
-                        int colOfProjectile = colOfSS + spaceShip.Length/2;
+                        int colOfProjectile = colOfSS + spaceShip.Length / 2;
 
                         while (rowOfProjectile > 0)
                         {
@@ -203,7 +200,7 @@
                     string pattern = @"\d*\. ([A-Z|a-z|0-9]*) - (\d*)";
                     var regex = new Regex(pattern);
                     var matches = regex.Matches(line);
-                    
+
                     foreach (Match stats in matches)
                     {
                         string name = stats.Groups[1].Value.ToString();
@@ -228,7 +225,7 @@
                                     }
                                 }
                             }
-                        }                        
+                        }
                     }
                 }
             }
@@ -238,9 +235,9 @@
                 goto record;
             }
             int place = 1;
-            Console.WriteLine("HIGHSCORES");
+            Console.WriteLine("HIGH SCORES");
             File.WriteAllText(highScores, String.Empty);
-            foreach (var profile in getTopPlayersInfo.OrderByDescending(x=>x.Value).Take(5))
+            foreach (var profile in getTopPlayersInfo.OrderByDescending(x => x.Value).Take(5))
             {
                 Console.WriteLine($"{place}. {profile.Key} - {profile.Value}");
                 File.AppendAllText(highScores, $"{place}. {profile.Key} - {profile.Value}");
@@ -252,14 +249,14 @@
             Console.WriteLine();
             Console.WriteLine("To play again press Enter or any other key to end the game!");
             Console.WriteLine();
-            Console.WriteLine("To delete Highscore and leave the game, please press DEL");
+            Console.WriteLine("To delete High score and leave the game, please press DEL");
             ConsoleKeyInfo playAgainKey = Console.ReadKey();
             if (playAgainKey.Key == ConsoleKey.Enter)
             {
                 Console.Clear();
                 goto StartGame;
             }
-            else if(playAgainKey.Key==ConsoleKey.Delete)
+            else if (playAgainKey.Key == ConsoleKey.Delete)
             {
                 File.WriteAllText(highScores, String.Empty);
                 return;
