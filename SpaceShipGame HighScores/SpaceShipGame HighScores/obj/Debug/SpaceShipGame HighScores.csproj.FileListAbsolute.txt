@@ -1,0 +1,6 @@
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\bin\Debug\SpaceShipGame HighScores.exe.config
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\bin\Debug\SpaceShipGame HighScores.exe
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\bin\Debug\SpaceShipGame HighScores.pdb
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\obj\Debug\SpaceShipGame HighScores.csprojResolveAssemblyReference.cache
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\obj\Debug\SpaceShipGame HighScores.exe
+c:\users\dimit\OneDrive\Documents\Visual Studio 2017\Projects\SpaceShipGame HighScores\SpaceShipGame HighScores\obj\Debug\SpaceShipGame HighScores.pdb
